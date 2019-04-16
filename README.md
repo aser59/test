@@ -99,6 +99,12 @@ _Заметки:_
 
 ### Краткое описание.
 
+Все для наглядности упрощено:
+* login и пароль не кешируется
+* проверочное поле токена не кешируется
+* сервер не разбит на модули
+* функции упрощены
+
 Перед начвлом работы необходимо запустить backend-server из папки проекта командой `nodejs server/server`.
 В броузере по адресу `http://localhost:3000/`должно появиться сообщение *Server готов к работе!*
 
@@ -109,13 +115,8 @@ _Заметки:_
 
 Если нажать в меню **«Logout»**, то после аутентификации счетчик будет **равен 0**.
 
+### Другие реализации.
 
+* Сайт резюме [Angular 5](https://aser.zzz.com.ua).
+* Тестовое задание [модель MVC ( PHP+AJAX )](https://aser-test.000webhostapp.com ).
 
-
-## Реализация.
-
-## Development server
-
-nodejs server/server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
